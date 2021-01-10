@@ -1,0 +1,941 @@
+OMCI_LIB: Parser:Running in background
+isInitializedParser()
+hi_ploam_init succeeded, error = 0x00000000
+InitializeOmciMgr
+OperatorId=0000 
+getOltInfoFromLocal::olttype=<2>,vendorId=<ALCL>,relInfo=<4050100>
+setDynamicTpidFlag,isDynamicTpic=0
+VNPT unlock proposal should not take effect.
+ethConfig() onu_mode = 1
+********OMCI Config Data Begin****************
+****ONU Type    : 0
+****onu mode    : 1
+****max lan num : 1
+****max wifi num: 0
+****max wifi id start: 1
+****check wifi state: no
+****port 0 config by omci: 1
+****dscp to Pbit for untag Config By OMCI: yes
+****support double tag rules us: yes
+****support double tag rules ds: yes
+****support pbit Unmatch Rules: yes
+****support Bcast Unmatch Rules: no
+****support omci manage HGU port: no
+****HGU single port=false
+****support omci replace after ranging : no
+****support Dynamic Tpid : no
+****support Cox : no
+****factory mode: 0
+********OMCI Config Data End****************
+   user_port    class       domain
+===================================
+      1          ETH         SFU
+===================================
+stub function only for build 
+stub function only for build 
+registTimerEvent,Line:277.
+registTimerEvent,Line:283.timerId=0,intervalMs=300000.
+registTimerEvent,Line:277.
+registTimerEvent,Line:283.timerId=1,intervalMs=1000.
+write to /configs/omciMsgFileID.txt failed
+registTimerEvent,Line:277.
+registTimerEvent,Line:283.timerId=2,intervalMs=0.
+OMCI_LIB: Parser: isInitializedParser returned true
+OMCI_LIB: Parser:Queue Created
+call getSwImageInfo:Line:255.
+call special_process_depended_board:Line:202.
+getOltInfoFromLocal::olttype=<2>,vendorId=<ALCL>,relInfo=<4050100>
+special_process_depended_board: call swdl_commit.
+special_process_depended_board:exit.
+call special_process_depended_board:Line:202.
+special_process_depended_board:exit.
+getSwImageInfo:exit.
+OMCI_LIB: Got swImageInfo = b, standby = 1
+call getSwImageInfo:Line:255.
+call special_process_depended_board:Line:202.
+call special_process_depended_board:Line:202.
+getSwImageInfo:exit.
+OMCI_LIB: Got swImageInfo = 0, standby = 3
+call getSwImageInfo:Line:255.
+call special_process_depended_board:Line:202.
+call special_process_depended_board:Line:202.
+getSwImageInfo:exit.
+OMCI_LIB: Got swImageInfo = 0, standby = 5
+OMCI_LIB:Parser:DownloadInit complete
+OMCI_LIB: Parser Running
+InitPortStream() maxPort=1, enet=1,moca=0
+InitPortStream:: ONU type is SFU
+---get_port_info_by_id---user_port:1,port_info:1,0,0
+>>>>>>>>printThresh
+       ponRxHighThresh       = -7.958800
+       ponRxLowThresh        = -28.386320
+       ponTxHighThresh       = 5.051500
+       ponTxLowThresh        = 0.499928
+       ponBiasHighThresh     = 40.000000
+       ponBiasLowThresh      = 2.800000
+       ponTempLowThresh      = -40.000000
+       ponTempHighThresh     = 85.000000
+       ponVolHighThresh      = 3.465000
+       ponVolLowThresh       = 3.135000
+       ponTempLowWarnThresh  = -40.000000
+       ponTempHighWarnThresh = 85.000000
+       ponVolHighWarnThresh  = 3.465000
+       ponVolLowWarnThresh   = 3.135000
+       ponBiasHighWarnThresh = 0.000000
+       ponBiasLowWarnThresh  = 0.000000
+       ponRxHighWarnThresh   = 0.000000
+       ponRxlLowWarnThresh   = 0.000000
+       ponTxHighWarnThresh   = 0.000000
+       ponTxLowWarnThresh	  = 0.000000
+ set_port_num_for_portmgr .......ethport<1> <0> cesport<0> dslport<0> voiceport<0> videoport<0> 
+[OMCI-PORTMGR] send_msg_to_portmgr ...............msgType is <a0003> 
+reset_all_tsched ...
+registTimerEvent,Line:277.
+registTimerEvent,Line:283.timerId=0,intervalMs=500.
+registTimerEvent,Line:277.
+registTimerEvent,Line:283.timerId=1,intervalMs=3000.
+registTimerEvent,Line:277.
+registTimerEvent,Line:283.timerId=2,intervalMs=1500.
+registTimerEvent,Line:277.
+registTimerEvent,Line:283.timerId=3,intervalMs=100000.
+PortPmHandler registered
+PortPmHandler registered
+PortPmHandler registered
+PortPmHandler registered
+PortPmHandler registered
+PortPmHandler registered
+PortPmHandler registered
+omciMgr: create_actionProcess_thread msgget failed: File exists
+ In deleteAllFlowInDataModel 
+>>>>>>>>isEnableOmciQOSConf  get ONTOMCIQOSInfoObject info is false!
+initialize loid ...
+evtNotifyHandleFunInit ...
+omciMgr: evtNotifyHandleFunInit msgget failed: File exists
+CfgmgrevtNotifyHandleFunInit ...
+CfgmgrevtNotifyHandleFunInit  thread id = 1998722336
+isOnuTimeEnable ...
+getEvtMsgHandle:74::msghandle = 0xda6ca0.msghandle->commFd=8.
+The commFd = 8
+>>>>>>>>getMaxGroupValue
+>>>>>>>>IgmpMaxGroups::1024
+Error: OmciMain failed to get the EfmOAM Process qid.
+configMcastFlow ...
+getOltInfoFromLocal::olttype=<2>,vendorId=<ALCL>,relInfo=<4050100>
+OMCI_LIB:Mgr: InitializeOmciMgr returned
+>>>>>>>ReadCapabilityFromApp<<<<<<<<<
+>>>>>>>getOntCapability<<<<<<<<<
+>>>>>>>>setCardType, card id = 14, type = 48
+>>>>>>>>setCardType, card id = 1, type = 24
+NON-VEIP_PORT found
+OMCI_LIB: Info: Max simultaneous groups : 1024
+OMCI_LIB: >>>>>>>>>>> ONT Capability <<<<<<<<<<<<
+   ONT Type           :(2)
+   VOIP Type          :(1)
+    INTEGRATED_ONT     :(1)
+    OMCC_VERSION       :(134)
+    CUSTOMER ID        :(0)
+    Number of cards    :(2)
+   Number of eth Ports :(1)
+   Card Number     :0
+    0)Card Type          :48
+    0)Slot IDpe          :14
+    0)Number of ports    :1
+   Card Number     :1
+    1)Card Type          :24
+    1)Slot IDpe          :1
+    1)Number of ports    :1
+   Total Number of Ports :(2)
+   Port Number     :0
+    0)portType           :7
+    0)Slot ID            :14
+    0)Port ID            :1
+    0)Mgmt Capability    :0
+    0)VEIP SLOT ID       :0
+    0)VEIP PORT ID       :0
+   Port Number     :1
+    1)portType           :2
+    1)Slot ID            :1
+    1)Port ID            :1
+    1)Mgmt Capability    :0
+    1)VEIP SLOT ID       :0
+    1)VEIP PORT ID       :0
+OMCI_LIB: >>>>>>>>>>>End of ONT Capability <<<<<<<<<<<<
+/configs/zeroman/imageCounter not exist
+getImageNumber ,imgcount = 2.
+>>>>getSwVerInfo(),imageBank:0,version:3FE47111AFGB89
+OMCI_LIB: OmciMain:: Calling getSwImageInfo()call getSwImageInfo:Line:255.
+call special_process_depended_board:Line:202.
+special_process_depended_board: call swdl_commit.
+>>>>configLptPort: onu state is ONU_LOS_LOF
+checkPonLEDStatus:Fiber disconnected 
+special_process_depended_board:exit.
+call special_process_depended_board:Line:202.
+special_process_depended_board:exit.
+getSwImageInfo:exit.
+OMCI_LIB: OmciMain:: got 'ONU_SWIMAGE_INFO' with value 0xb
+>>>>getSwVerInfo(),imageBank:1,version:3FE46398BFGA06
+read_sn_from_RI sn is: SMBS33ffffff
+getOmciOntvalues: Serial_Number = SMBS:ffffffffffffffffffff
+getOmciOntvalues: YP_Serial_Num = F852DB83
+getOmciOntvalues: vendor_id = SMBS
+getOmciOntvalues: HardwareVersion = 3FE46541AAAA
+getOmciOntvalues: ICS = 01
+getOmciOntvalues: MACAddress = 9c:50:ee:ed:ab:fc
+getOmciOntvalues: Factorycode = 02
+getOmciOntvalues: original RI cleicode = BVL3A8JNAA, length = 10
+getOmciOntvalues: Mnemonic = G-010S-A
+getOmciOntvalues: onu equipid(CleiCode+Mnemonic) = BVL3A8JNAAG010SA
+>>>>>>>>getGponConfInfo
+        totalTcontNum   = 9
+        totalGemPortNum = 254
+        totalUSPQNum    = 64
+        totalDSPQNum    = 8
+        numPqPerTcont   = 8
+        numPqPerUni     = 8
+        totalTSchedNum  = 8
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>setPktDropPara pktDropMaxP:0, dropPrecColorMark:0
+>>>>>>>>getTSchedInfo, tschedId = 0x0, tschedCfg.tschedId = 0x8001
+>>>>>>>>getTSchedInfo, tschedId = 0x1, tschedCfg.tschedId = 0x8002
+>>>>>>>>getTSchedInfo, tschedId = 0x2, tschedCfg.tschedId = 0x8003
+>>>>>>>>getTSchedInfo, tschedId = 0x3, tschedCfg.tschedId = 0x8004
+>>>>>>>>getTSchedInfo, tschedId = 0x4, tschedCfg.tschedId = 0x8005
+>>>>>>>>getTSchedInfo, tschedId = 0x5, tschedCfg.tschedId = 0x8006
+>>>>>>>>getTSchedInfo, tschedId = 0x6, tschedCfg.tschedId = 0x8007
+>>>>>>>>getTSchedInfo, tschedId = 0x7, tschedCfg.tschedId = 0x8008
+>>>>>>>>getTContInfo, tcontIndex = 0x0, tcontId = 0x8000, policy = 0
+>>>>>>>>getTContInfo, tcontIndex = 0x1, tcontId = 0x8001, policy = 1
+>>>>>>>>getTContInfo, tcontIndex = 0x2, tcontId = 0x8002, policy = 1
+>>>>>>>>getTContInfo, tcontIndex = 0x3, tcontId = 0x8003, policy = 1
+>>>>>>>>getTContInfo, tcontIndex = 0x4, tcontId = 0x8004, policy = 1
+>>>>>>>>getTContInfo, tcontIndex = 0x5, tcontId = 0x8005, policy = 1
+>>>>>>>>getTContInfo, tcontIndex = 0x6, tcontId = 0x8006, policy = 1
+>>>>>>>>getTContInfo, tcontIndex = 0x7, tcontId = 0x8007, policy = 1
+>>>>>>>>getTContInfo, tcontIndex = 0x8, tcontId = 0x8008, policy = 1
+>>>>>>>>getPqWeightInvPolicy
+OMCI_LIB:PqWeightInvPolicy value=1
+OmciMain:: Creating autonomous ME's.
+>>>>>>>>getGponOpticalAttr
+getBiasCurrent:: biasCurrent=0.008535
+getoptModTemp:: optModTemp=43.849998
+getoptModVolt:: optModVolt=3.299988
+getOpticalRxSignalLevel:: OpticalRxSignalLevel=-inf
+getOpticalRxSignalLevel:: OpticalTxSignalLevel=0.000000
+getPonRxLowThresh:: ponLowThresh=-28.386320
+getPonRxHighThresh:: ponHighThresh=-7.958800
+getPonTxLowThresh:: ponLowThresh=-28.386320
+getPonTxHighThresh:: ponHighThresh=-7.958800
+>>>>>>>>getLastDsoTime
+>>>>>>>>getQosCfgFlexibility
+Value of bit position is 5
+Inside HguTr069ConfigItf constructor...
+Value of bit position is 8
+Entering TurboOctetStringItf constructor...
+Value of bit position is 9
+GemCtpItf:GemCtpItf: maxNumOfInstances=254
+Value of bit position is 0
+>>>>sendPwrSheddingDatatoApp
+[OMCI-PORTMGR] send_msg_to_portmgr ...............msgType is <a0004> 
+Value of bit position is 13
+getLoidAuthInfo() @ 37m:33s:512ms
+getLoidAuthInfo() exit @ 37m:33s:513ms, :
+>>>>>>>>getTrafficMgmtOption
+ - create_instance_auto()  act_plugInUnitType = 48
+IN VEIP SubscriberLinecard:index-0
+No of ports = 1>>>>configUniTaggingMode(instanceId=e01,tagmode=2)
+VEIP::(3585) successfully created
+create_instance_auto::create Tr069MgmtServer ME
+>>>>>>>>configRateLimit protocol = 1, rate_limit = 10
+>>>>>>>>configRateLimit protocol = 2, rate_limit = 10
+>>>>configUniTaggingMode(instanceId=e01,tagmode=2)
+ - create_instance_auto()  act_plugInUnitType = 24
+OMCI_LIB: TEN_BASE_T: indexID: 1
+ConfigFile3::No of ethernet ports after assignment is :1
+ - LanUniPptpItf::create_instance_auto(inst=101,port_type=0)
+>>>>getPhyDevConfig(portId=101) @ 37:33:518ms
+lan_attr.speed = 2
+lan_attr.mode  = 1
+portId-101,state=1,confInd=3
+getPhyDevConfig() exit @ 37:33:522ms
+>>>>getPhyDevConfig(portId=101) @ 37:33:522ms
+lan_attr.speed = 2
+lan_attr.mode  = 1
+portId-101,state=1,confInd=3
+getPhyDevConfig() exit @ 37:33:524ms
+>>>>configUniTaggingMode(instanceId=101,tagmode=2)
+LanUniPptpItf::create_instance_auto return result=1
+Inside configLtpPonLossBehavior instance id 257 and mode 2 
+EthSLC:gatewayUniSupp1 with ID=257 create success for Lan Uni ID 257
+>>>>>>>>configRateLimit protocol = 1, rate_limit = 10
+>>>>>>>>configRateLimit protocol = 2, rate_limit = 10
+>>>>configUniTaggingMode(instanceId=101,tagmode=2)
+>>>>configUniDot1xParams(portId=101,dot1x_enable=0,action_register=3)
+total no of ports in lan sub card 2
+TEN_100BT_PORT found with instance id=257---port no=1
+lan uni mgmt cap=0
+lan uni veipSlotId=0
+lan uni veipPortId=0
+Entered UNIItf:: create_instance_auto
+UNI::UNI:m_mgmt_capability=0--m_nonomci_mgmt_id=0
+UNI::constructor:Create instance:Instance-ID:-(0x0101)
+uniPptp_p insert() successful
+UNI-G auto created for LAN UNI with port num=:1
+>>>>>>>>getSysUpTime
+>>>>>>>>getSysUpTime
+>>>>>>>>getOnuConnCapability
+ONT2Gpon::Going to set the DEAFULT_BRIDGING_MODE
+>>>>>>>>setOnuConnMode, mode = 5
+>>>>>>>>getQosCfgFlexibility
+>>>>>>>>getTrafficMgmtOption
+Inside IpHostConfig::IpHostConfig--instancd id=0
+getLoidAuthInfo() @ 37m:33s:534ms
+getLoidAuthInfo() exit @ 37m:33s:534ms, :
+>>>>>>>>getOnuTxPwrSupplyCtrl
+omciMgr is running!!!
+rangingEnable.
+read_sn_from_RI sn is: SMBS33ffffff
+>>>>>checkLanState(port:1,original _connect:-1,isConnect:1)
+loss_alarm : user_port 1 -> isConnect 1
+loss_alarm : send message of AIS [alarmState]=0 
+omciMgr/lanLossIndiacteToCFM: ERR, send_alarm_msg to cfmoam
+Evtmgr process not exist! notify_evtMgr_lan_status() return!
+msgsnd succeeded
+OmciMain:: Received LAN_ALARM--@37m:34s:413ms
+LAN_ALARM:alarm_id=70--instance id=257--alarmstate=0--numofethports=1
+OmciMain:: Response Msg Sent--@37m:34s:414ms
+
+>>>>>checkLanState(Current Online port:0,Previous Online Port:65535)
+updateDownstreamFlow:currentOnPort(0),savedPrePort(65535)!!
+>>>>>>>>activeGponAlarm: alarmId   = 63
+msgsnd succeeded
+>>>>>>>>trigger signal low alarm ,cur_value=-inf,alarmThresh=-28.386320,warnThresh=-27.000000,allowedness=0.500000.
+alarmactived=1,warnactived=0,lastalarmactived=0,lastwarnactived=0,alarmcounter=0.
+OmciMain:: Received GPON_MAC_ALARM--@37m:38s:940ms
+GPON_MAC_ALARM:alarm_id=63--instance id=0--alarmstate=1
+
+RX_ONT_MSG -- @37m:38s:945ms
+Msg_type    = ALARM
+Trans_id    = 00
+Alarm seq nbr = 01
+Entity_id   = ANI_G
+Instance_id = 8001
+Alarm mask = 80 00 00 00 OmciMain:: Response Msg Sent--@37m:38s:949ms
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+OMCI msg construction = SUCCESSFUL
+
+TX_OMCI_MSG 
+bytes[06-13]: 00  00  10  0a  01  07  80  01 
+bytes[14-45]: 80  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  01 -
+OMCI_TX#   1@  37m:38s: 956ms-00 00 10 0A 01 07 80 01 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 
+SendMsgToSlid: msgget failed, err = 2, No such file or directory
+Enter notify_sipw_pon_status, onustate=2
+>>>>>>>>deActiveGponAlarm: alarmId   = 63
+OmciMain:: Received GPON_MAC_ALARM--@39m:48s:343ms
+GPON_MAC_ALARM:alarm_id=63--instance id=0--alarmstate=0
+OmciMain:: Response Msg Sent--@39m:48s:344ms
+
+
+RX_ONT_MSG -- @39m:48s:343ms
+msgsnd succeeded
+>>>>>>>>deative signal low alarm ,cur_value=-15.812040,alarmThresh=-28.386320,warnThresh=-27.000000,allowedness=0.500000.
+Msg_type    = ALARM
+Trans_id    = 00
+Alarm seq nbr = 02
+Entity_id   = ANI_G
+Instance_id = 8001
+Alarm mask = 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+OMCI msg construction = SUCCESSFUL
+
+TX_OMCI_MSG 
+bytes[06-13]: 00  00  10  0a  01  07  80  01 
+bytes[14-45]: 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  02 -
+OMCI_TX#   2@  39m:48s: 361ms-00 00 10 0A 01 07 80 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 
+checkPonVidStatus: statePrevious=0, state=1
+OmciMain:: OMCI Link Status is UP--@39m:51s:216ms
+OmciMain:: Response Msg Sent--@39m:51s:217ms
+
+>>>>configAllEthPortDownUp
+SendMsgToSlid: msgget failed, err = 2, No such file or directory
+Enter notify_sipw_pon_status, onustate=3
+notify_sipw_pon_status: get SIPW queue failed, err = 2, No such file or directory
+>>>>configLptPort: onu state is ONU_REGISTERED
+checkPonLEDStatus:Fiber connected 
+Evtmgr process not exist! notify_evtmgr_pon_status() return!
+OMCI_RX#   1@  39m:53s: 787ms-46 99 49 0A 00 02 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 5F 51 B5 12 
+
+
+
+RX_OMCI_MSG
+bytes[06-13]: 46  99  49  0a  00  02  00  00 
+bytes[14-45]: 80  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+SYNTAX CHECK RESULT = SUCCESSFUL.
+
+>>>>on_omci_start_io()
+
+TX_ONT_MSG -- @39m:53s:791ms
+Msg_type    = GET
+Trans_id    = 01
+Entity_id   = ONT DATA
+Instance_id = 00
+mib_data_sync.status = VALID
+OmciMain:: Received MSG_N_OMCI_GET:Entity_id(02-00);instance_id(0x0000)--@39m:53s:793ms
+OmciMain:: Response Msg Sent--@39m:53s:799ms
+
+
+RX_ONT_MSG -- @39m:53s:799ms
+Msg_type    = GET RESPONSE
+Trans_id    = 01
+Entity_id   = ONT DATA
+Instance_id = 00
+Sub entity Id :NO SUB ENTITY ID 
+Result_reason = COMMAND_PROCESSED_SUCCESSFULLY
+mib_data_sync.status = VALID
+mib_data_sync.value = 00
+Duration : 00s:004ms
+OMCI msg construction = SUCCESSFUL
+
+TX_OMCI_MSG 
+bytes[06-13]: 46  99  29  0a  00  02  00  00 
+bytes[14-45]: 00  80  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+OMCI_TX#   1@  39m:53s: 803ms-46 99 29 0A 00 02 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+OMCI_RX#   2@  39m:53s: 807ms-46 9A 4F 0A 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 E6 90 40 44 
+
+
+
+RX_OMCI_MSG
+bytes[06-13]: 46  9a  4f  0a  00  02  00  00 
+bytes[14-45]: 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+SYNTAX CHECK RESULT = SUCCESSFUL.
+
+OmciMain:: MIB Reset Msg Rcvd--@39m:53s:812ms
+OMCIItf::MSG_MIB_RESET received.
+>>>>pmResetApp(pmMsg->msgType=6,pmMsg->meId=0,pmMsg->portId=0x0)
+
+TX_ONT_MSG -- @39m:53s:812ms
+Msg_type    = MIB_RESET
+Trans_id    = 02
+Entity_id   = ONT DATA
+Instance_id = 00
+OMCIItf:: MIB Reset-PM Reset successful
+
+RX_ONT_MSG -- @39m:53s:813ms
+Msg_type    = MIB_RESET RESPONSE
+Trans_id    = 02
+Entity_id   = ONT DATA
+Instance_id = 00
+Result_reason = COMMAND_PROCESSED_SUCCESSFULLY
+Duration : 00s:002ms
+OMCI msg construction = SUCCESSFUL
+>>>>mibReset()@39m:53s 816ms
+
+TX_OMCI_MSG 
+bytes[06-13]: 46  9a  2f  0a  00  02  00  00 
+bytes[14-45]: 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+OMCI_TX#   2@  39m:53s: 821ms-46 9A 2F 0A 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+>>>>mib_reset_flow() @ 39m:53s 823ms
+>>>>mib_reset_flow() exit @39m:53s 823ms
+>>>>>>>>resetMcastDynamicAcl, 
+OMCI_RX#   3@  39m:53s: 825ms-46 9B 49 0A 00 83 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 9D B8 68 A1 
+
+
+
+RX_OMCI_MSG
+bytes[06-13]: 46  9b  49  0a  00  83  00  00 
+bytes[14-45]: 80  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+mibReset() exit @39m:53s 824ms
+MIB RESET: Num of interface:86
+OMCIItf: Mib Interface: 0  start reset time@39m:53s:829ms
+
+>>>>setGponOpticalAttr()
+setGponOpticalAttr:: ponRxLowThresh=-28.386320
+setGponOpticalAttr:: ponRxHighThresh=-7.958800
+setGponOpticalAttr:: ponTxLowThresh=0.499928
+setGponOpticalAttr:: ponTxHighThresh=5.051500
+OMCIItf: Mib Interface: 1  start reset time@39m:53s:831ms
+
+>>>>>>>>getTrafficMgmtOption
+OntGpon in set_to_default::m_trafficManagement=2 
+call getSwImageInfo:Line:255.
+call special_process_depended_board:Line:202.
+            : 00  00  00  00  00  00  00  00  00  00 -
+SYNTAX CHECK RESULT = SUCCESSFUL.
+
+the OLT verion oltBase=3 r
+
+TX_ONT_MSG -- @39m:53s:833ms
+Msg_type    = GET
+Trans_id    = 03
+Entity_id   =  OLT G
+Instance_id = 00
+olt_vendor_id.status = VALID
+eqpt_id.status = NOT VALID
+olt_version.status = NOT VALID
+time_of_day_info.status = NOT VALID
+special_process_depended_board: call swdl_commit.
+special_process_depended_board:exit.
+call special_process_depended_board:Line:202.
+special_process_depended_board:exit.
+getSwImageInfo:exit.
+OMCI_LIB: set_to_default:: got 'ONU_SWIMAGE_INFO' with value b
+OMCIItf: Mib Interface: 2  start reset time@39m:54s:365ms
+
+>>>>>>>>setOnuConnMode, mode = 5
+OMCIItf: Mib Interface: 3  start reset time@39m:54s:369ms
+
+OMCIItf: Mib Interface: 4  start reset time@39m:54s:369ms
+
+OMCIItf: Mib Interface: 5  start reset time@39m:54s:370ms
+
+>>>>setPhyDevConfig(portId=0x101,state=1,phyModeSet=0) onuType=0 @ 39:54:369ms
+AggEthPm::delEthPort(1)
+AggEthPm::delEthPort(1) is not there
+cfg_PhyDev : user_port 257,speed 4,mode=2
+[OMCI-PORTMGR] send_msg_to_portmgr ...............msgType is <a0005> 
+setPhyDevConfig() exit @ 39:54:372ms
+>>>>>>>>configRateLimit protocol = 1, rate_limit = 10
+>>>>>>>>configRateLimit protocol = 2, rate_limit = 10
+>>>>configUniTaggingMode(instanceId=101,tagmode=2)
+calling set_to_default for GatewayUniSupp1
+Inside configLtpPonLossBehavior instance id 257 and mode 2 
+>>>>configUniDot1xParams(portId=101,dot1x_enable=0,action_register=3)
+PppoeEmulationItf: set_to_default():Instance found
+Tr069MgmtServerItf:: set_to_default_spl()
+Tr069MgmtServerItf:: set_to_default():Instance found
+GatewayUniSupp_1::set_to_default_spl() has failed; GatewayUNI_Supp_1 instance(0x0e01) not found
+>>>>>>>>configRateLimit protocol = 1, rate_limit = 10
+>>>>>>>>configRateLimit protocol = 2, rate_limit = 10
+>>>>configUniTaggingMode(instanceId=e01,tagmode=2)
+OMCIItf: Mib Interface: 6  start reset time@39m:54s:389ms
+
+OMCIItf: Mib Interface: 7  start reset time@39m:54s:389ms
+
+OMCIItf: Mib Interface: 8  start reset time@39m:54s:390ms
+
+OMCIItf: Mib Interface: 9  start reset time@39m:54s:390ms
+
+OMCIItf: Mib Interface: 10  start reset time@39m:54s:390ms
+
+OMCIItf: Mib Interface: 11  start reset time@39m:54s:391ms
+
+OMCIItf: Mib Interface: 12  start reset time@39m:54s:391ms
+
+OMCIItf: Mib Interface: 13  start reset time@39m:54s:392ms
+
+>>>>>checkLanState(port:1,original _connect:1,isConnect:0)
+loss_alarm : user_port 1 -> isConnect 0
+OMCIItf: Mib Interface: 14  start reset time@39m:54s:392ms
+
+OMCIItf: Mib Interface: 15  start reset time@39m:54s:397ms
+
+OMCIItf: Mib Interface: 16  start reset time@39m:54s:397ms
+
+OMCIItf: Mib Interface: 17  start reset time@39m:54s:398ms
+
+OMCIItf: Mib Interface: 18  start reset time@39m:54s:399ms
+
+OMCIItf: Mib Interface: 19  start reset time@39m:54s:399ms
+
+OMCIItf: Mib Interface: 20  start reset time@39m:54s:399ms
+
+OMCIItf: Mib Interface: 21  start reset time@39m:54s:400ms
+
+loss_alarm : send message of AIS [alarmState]=1 
+omciMgr/lanLossIndiacteToCFM: ERR, send_alarm_msg to cfmoam
+Evtmgr process not exist! notify_evtMgr_lan_status() return!
+msgsnd succeeded
+>>>>>checkLanState(Current Online port:65535,Previous Online Port:0)
+updateDownstreamFlow:currentOnPort(65535),savedPrePort(0)!!
+OMCIItf: Mib Interface: 22  start reset time@39m:54s:400ms
+
+OMCIItf: Mib Interface: 23  start reset time@39m:54s:402ms
+
+OMCIItf: Mib Interface: 24  start reset time@39m:54s:403ms
+
+OMCIItf: Mib Interface: 25  start reset time@39m:54s:403ms
+
+OMCIItf: Mib Interface: 26  start reset time@39m:54s:404ms
+
+OMCIItf: Mib Interface: 27  start reset time@39m:54s:404ms
+
+OMCIItf: Mib Interface: 28  start reset time@39m:54s:404ms
+
+OMCIItf: Mib Interface: 29  start reset time@39m:54s:405ms
+
+OMCIItf: Mib Interface: 30  start reset time@39m:54s:405ms
+
+OMCIItf: Mib Interface: 31  start reset time@39m:54s:406ms
+
+OMCIItf: Mib Interface: 32  start reset time@39m:54s:406ms
+
+OMCIItf: Mib Interface: 33  start reset time@39m:54s:407ms
+
+OMCIItf: Mib Interface: 34  start reset time@39m:54s:407ms
+
+OMCIItf: Mib Interface: 35  start reset time@39m:54s:407ms
+
+OMCIItf: Mib Interface: 36  start reset time@39m:54s:408ms
+
+HpnaUniPptpItf: set_to_default() not supported for HpnaUniPptp Me; instead use set_to_default_spl();
+OMCIItf: Mib Interface: 37  start reset time@39m:54s:409ms
+
+OMCIItf: Mib Interface: 42  start reset time@39m:54s:409ms
+
+>>>>sendPwrSheddingDatatoApp
+[OMCI-PORTMGR] send_msg_to_portmgr ...............msgType is <a0004> 
+OMCIItf: Mib Interface: 43  start reset time@39m:54s:410ms
+
+OMCIItf: Mib Interface: 44  start reset time@39m:54s:411ms
+
+OMCIItf: Mib Interface: 45  start reset time@39m:54s:411ms
+
+OMCIItf: Mib Interface: 46  start reset time@39m:54s:412ms
+
+OMCIItf: Mib Interface: 47  start reset time@39m:54s:412ms
+
+OMCIItf: Mib Interface: 48  start reset time@39m:54s:412ms
+
+OMCIItf: Mib Interface: 49  start reset time@39m:54s:413ms
+
+OMCIItf: Mib Interface: 50  start reset time@39m:54s:413ms
+
+OMCIItf: Mib Interface: 51  start reset time@39m:54s:414ms
+
+OMCIItf: Mib Interface: 52  start reset time@39m:54s:414ms
+
+OMCIItf: Mib Interface: 53  start reset time@39m:54s:414ms
+
+OMCIItf: Mib Interface: 54  start reset time@39m:54s:415ms
+
+OMCIItf: Mib Interface: 55  start reset time@39m:54s:415ms
+
+OMCIItf: Mib Interface: 56  start reset time@39m:54s:416ms
+
+OMCIItf: Mib Interface: 57  start reset time@39m:54s:416ms
+
+OMCIItf: Mib Interface: 58  start reset time@39m:54s:417ms
+
+>>>>configUniTaggingMode(instanceId=101,tagmode=2)
+>>>>configUniTaggingMode(instanceId=e01,tagmode=2)
+OMCIItf: Mib Interface: 59  start reset time@39m:54s:418ms
+
+OMCIItf: Mib Interface: 76  start reset time@39m:54s:418ms
+
+OMCIItf: Mib Interface: 77  start reset time@39m:54s:418ms
+
+OMCIItf: Mib Interface: 78  start reset time@39m:54s:419ms
+
+OMCIItf: Mib Interface: 79  start reset time@39m:54s:419ms
+
+OMCIItf: Mib Interface: 80  start reset time@39m:54s:420ms
+
+>>>>>>>>ipHostApi.cc::deleteIPHost::40
+OMCIItf: Mib Interface: 81  start reset time@39m:54s:420ms
+
+OMCIItf: Mib Interface: 82  start reset time@39m:54s:421ms
+
+OMCIItf: Mib Interface: 83  start reset time@39m:54s:422ms
+
+OMCIItf: Mib Interface: 84  start reset time@39m:54s:422ms
+
+OMCIItf: Mib Interface: 85  start reset time@39m:54s:422ms
+
+MIB RESET: set_to_default done
+OmciMain:: Response Msg Sent--@39m:54s:423ms
+
+OmciMain:: Received MSG_N_OMCI_GET:Entity_id(131-00);instance_id(0x0000)--@39m:54s:423ms
+
+RX_ONT_MSG -- @39m:54s:423ms
+OmciMain:: Response Msg Sent--@39m:54s:425ms
+
+OmciMain:: Received LAN_ALARM--@39m:54s:425ms
+LAN_ALARM:alarm_id=70--instance id=257--alarmstate=1--numofethports=1
+OmciMain:: Response Msg Sent--@39m:54s:426ms
+
+Msg_type    = GET RESPONSE
+Trans_id    = 03
+Entity_id   =  OLT G
+Instance_id = 00
+Sub entity Id :NO SUB ENTITY ID 
+Result_reason = COMMAND_PROCESSED_SUCCESSFULLY
+olt_vendor_id.status = VALID
+olt_vendor_id.value =     
+eqpt_id.status = NOT VALID
+olt_version.status = NOT VALID
+time_of_day_info.status = NOT VALID
+Duration : 00s:594ms
+OMCI msg construction = SUCCESSFUL
+
+TX_OMCI_MSG 
+bytes[06-13]: 46  9b  29  0a  00  83  00  00 
+bytes[14-45]: 00  80  00  20  20  20  20  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+OMCI_TX#   3@  39m:54s: 431ms-46 9B 29 0A 00 83 00 00 00 80 00 20 20 20 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+OMCI_RX#   4@  39m:54s: 434ms-46 9C 4D 0A 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 97 3D 76 24 
+
+
+
+RX_OMCI_MSG
+bytes[06-13]: 46  9c  4d  0a  00  02  00  00 
+bytes[14-45]: 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+SYNTAX CHECK RESULT = SUCCESSFUL.
+
+
+OmciMain::Received MSG_OMCI_MIB_UPLOAD--@39m:54s:438ms
+
+TX_ONT_MSG -- @39m:54s:440ms
+Msg_type    = MIB UPLOAD
+Trans_id    = 04
+Entity_id   = ONT DATA
+Instance_id = 00
+LIB_ONT_DATA Total number of Interface: 36 is NULL
+OntData::715::mib_upload_array_p addr is 0xdb0ff0 index=0 
+LIB_ONT_DATA Interafce accessed is 0
+LIB_ONT_DATA Interafce accessed is 1
+LIB_ONT_DATA Interafce accessed is 2
+LIB_ONT_DATA Interafce accessed is 3
+LIB_ONT_DATA Interafce accessed is 4
+LIB_ONT_DATA Interafce accessed is 5
+LIB_ONT_DATA Interafce accessed is 6
+LIB_ONT_DATA Interafce accessed is 7
+LIB_ONT_DATA Interafce accessed is 8
+LIB_ONT_DATA Interafce accessed is 9
+Error: latch_mib(); is not supported for NtpConfigurationItf ME;
+LIB_ONT_DATA Interafce accessed is 10
+LIB_ONT_DATA Interafce accessed is 11
+LIB_ONT_DATA Interafce accessed is 12
+LIB_ONT_DATA Interafce accessed is 13
+LIB_ONT_DATA Interafce accessed is 14
+LIB_ONT_DATA Interafce accessed is 15
+LIB_ONT_DATA Interafce accessed is 16
+LIB_LanUniPptpItf ME;
+   LIB_LanUniPptpItf ME Loop;
+LIB_ONT_DATA Interafce accessed is 17
+LIB_ONT_DATA Interafce accessed is 18
+LIB_ONT_DATA Interafce accessed is 19
+LIB_ONT_DATA Interafce accessed is 20
+LIB_HpnaUniPptp ME;
+LIB_ONT_DATA Interafce accessed is 21
+LIB_VeipItf ME;
+   LIB_VeipItf ME Loop;
+LIB_ONT_DATA Interafce accessed is 22
+LIB_ONT_DATA Interafce accessed is 23
+LIB_ONT_DATA Interafce accessed is 24
+OntData::mib_upload(); Mib Interface: 25 is NULL
+OntData::mib_upload(); Mib Interface: 26 is NULL
+LIB_ONT_DATA Interafce accessed is 27
+LIB_ONT_DATA Interafce accessed is 28
+LIB_ONT_DATA Interafce accessed is 29
+LIB_ONT_DATA Interafce accessed is 30
+LIB_ONT_DATA Interafce accessed is 31
+LIB_DsVlanEgressSupp1Itf ME
+   LIB_DsVlanEgressSupp1Itf ME loop
+   LIB_DsVlanEgressSupp1Itf ME loop
+LIB_ONT_DATA Interafce accessed is 32
+LIB_ONT_DATA Interafce accessed is 33
+LIB_AntiSpoofList ME;
+  LIB_AntiSpoofList ME Loop;
+  LIB_AntiSpoofList ME Loop;
+LIB_ONT_DATA Interafce accessed is 34
+LIB_AnigSupp_1Itf ME;
+  LIB_AnigSupp_1Itf ME ;
+LIB_ONT_DATA Interafce accessed is 35
+Mib Upload interfaces : 36  : Nbr of mibs to OLT=213
+OmciMain:: Response Msg Sent--@39m:54s:484ms
+
+Parser: Number of MIBs 213
+TX_OMCI_MSG 
+bytes[06-13]: 46  9c  2d  0a  00  02  00  00 
+bytes[14-45]: 00  d5  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+OMCI_TX#   4@  39m:54s: 486ms-46 9C 2D 0A 00 02 00 00 00 D5 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+OMCI_RX#   5@  39m:54s: 491ms-46 9D 4E 0A 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 6A 09 19 85 
+
+
+
+RX_OMCI_MSG
+bytes[06-13]: 46  9d  4e  0a  00  02  00  00 
+bytes[14-45]: 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+SYNTAX CHECK RESULT = SUCCESSFUL.
+
+
+TX_ONT_MSG -- @39m:54s:494ms
+Uploading Mibs...
+#OmciMain:: Response Msg Sent--@39m:54s:496ms
+
+TX_OMCI_MSG 
+bytes[06-13]: 46  9d  2e  0a  00  02  00  00 
+bytes[14-45]: 01  07  80  01  f9  30  01  00  09  00  30 
+            : 00  00  00  ff  ff  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+OMCI_TX#   5@  39m:54s: 498ms-46 9D 2E 0A 00 02 00 00 01 07 80 01 F9 30 01 00 09 00 30 00 00 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+OMCI_RX#   6@  39m:54s: 503ms-46 9E 4E 0A 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 85 19 CD 64 
+
+
+
+RX_OMCI_MSG
+bytes[06-13]: 46  9e  4e  0a  00  02  00  00 
+bytes[14-45]: 00  01  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+SYNTAX CHECK RESULT = SUCCESSFUL.
+
+
+TX_ONT_MSG -- @39m:54s:506ms
+#OmciMain:: Response Msg Sent--@39m:54s:508ms
+
+TX_OMCI_MSG 
+bytes[06-13]: 46  9e  2e  0a  00  02  00  00 
+bytes[14-45]: 01  00  00  00  e0  00  53  4d  42  53  33 
+            : 46  45  34  36  35  34  31  41  41  41  41 
+            : 30  31  53  4d  42  53  03  03  86  98 -
+OMCI_TX#   6@  39m:54s: 510ms-46 9E 2E 0A 00 02 00 00 01 00 00 00 E0 00 53 4D 42 53 33 46 45 34 36 35 34 31 41 41 41 41 30 31 53 4D 42 53 XX XX XX XX 
+OMCI_RX#   7@  39m:54s: 516ms-46 9F 4E 0A 00 02 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 04 A6 6F 01 
+
+
+
+RX_OMCI_MSG
+bytes[06-13]: 46  9f  4e  0a  00  02  00  00 
+bytes[14-45]: 00  02  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+SYNTAX CHECK RESULT = SUCCESSFUL.
+
+#OmciMain:: Response Msg Sent--@39m:54s:521ms
+
+
+TX_ONT_MSG -- @39m:54s:519ms
+TX_OMCI_MSG 
+bytes[06-13]: 46  9f  2e  0a  00  02  00  00 
+bytes[14-45]: 01  00  00  00  1f  00  02  00  00  00  00 
+            : 6c  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+OMCI_TX#   7@  39m:54s: 525ms-46 9F 2E 0A 00 02 00 00 01 00 00 00 1F 00 02 00 00 00 00 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+OMCI_RX#   8@  39m:54s: 527ms-46 A0 4E 0A 00 02 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 5E A1 AD 0D 
+
+
+
+RX_OMCI_MSG
+bytes[06-13]: 46  a0  4e  0a  00  02  00  00 
+bytes[14-45]: 00  03  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+SYNTAX CHECK RESULT = SUCCESSFUL.
+
+#OmciMain:: Response Msg Sent--@39m:54s:532ms
+
+
+TX_ONT_MSG -- @39m:54s:531ms
+TX_OMCI_MSG 
+bytes[06-13]: 46  a0  2e  0a  00  02  00  00 
+bytes[14-45]: 01  00  00  00  00  40  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+OMCI_TX#   8@  39m:54s: 535ms-46 A0 2E 0A 00 02 00 00 01 00 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+OMCI_RX#   9@  39m:54s: 539ms-46 A1 4E 0A 00 02 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 B6 0F 20 91 
+
+
+
+RX_OMCI_MSG
+bytes[06-13]: 46  a1  4e  0a  00  02  00  00 
+bytes[14-45]: 00  04  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00  00 
+            : 00  00  00  00  00  00  00  00  00  00 -
+SYNTAX CHECK RESULT = SUCCESSFUL.
+
+
+TX_ONT_MSG -- @39m:54s:542ms
+#OmciMain:: Response Msg Sent--@39m:54s:544ms
+
+TX_OMCI_MSG 
+bytes[06-13]: 46  a1  2e  0a  00  02  00  00 
+bytes[14-45]: 01  00 
