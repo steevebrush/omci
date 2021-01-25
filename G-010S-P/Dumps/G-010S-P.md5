@@ -1,0 +1,7 @@
+root@SFP:/home/ONTUSER# md5sum /dev/mtd0 /dev/mtd1 /dev/mtd2 /dev/mtd3 /dev/mtd4 /dev/mtd5
+992b31a67c644aa68cf7f9caf956b1f9  /dev/mtd0
+f8f3526c0970fbf7a3ca2fd16b4b3817  /dev/mtd1
+bb7ba60c7ebf674bb230ca4b0b846039  /dev/mtd2
+75e9842021fbd7d4f5ac3a77e4886d74  /dev/mtd3
+a5a16a96ffa7c62446f5e66ca10b1f4c  /dev/mtd4
+d1d6733409fa1fbb6dd6ae26c2db753b  /dev/mtd5

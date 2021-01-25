@@ -1,0 +1,74 @@
+act_img_addr=0xBF20003C
+addip=setenv bootargs ${bootargs} ip=${ipaddr}:${serverip}:${gatewayip}:${netmask}:${hostname}:${netdev}:off
+addmisc=setenv bootargs ${bootargs} ethaddr=${ethaddr} machtype=${machtype} ignore_loglevel vpe1_load_addr=0x83f00000 vpe1_mem=1M mem=63M ${mtdparts}
+addmtdparts0=setenv mtdparts mtdparts=sflash:256k(uboot)ro,512k(uboot_env),7424k(linux),8192k(image1)
+addmtdparts1=setenv mtdparts mtdparts=sflash:256k(uboot)ro,512k(uboot_env),7424k(image0),8192k(linux)
+baudrate=115200
+bertEnable=0
+boot_image=run boot_image${c_img};
+boot_image0=run kernel0_from_sf flashargs addip addmtdparts0 addmisc && bootm ${ram_addr}
+boot_image1=run kernel1_from_sf flashargs addip addmtdparts1 addmisc && bootm ${ram_addr}
+boot_image_err=setenv kernel_offs ${kernel0_offs};httpd && setenv image0_is_valid 1
+bootcmd=run flash_flash
+env_offs=0x40000
+env_offs_redund=0x80000
+ethact=SERDES
+ethaddr=00:06:B5:04:66:66
+ethprime=SERDES
+fileaddr=80F00000
+filesize=400092
+flash_flash=run select_image boot_image
+flashargs=setenv bootargs rootfstype=squashfs,jffs2
+gatewayip=192.168.2.1
+gphy0_phyaddr=0
+gphy1_phyaddr=1
+image0_addr=0xB00C0000
+image0_is_valid=1
+image0_version=3FE56853AOPD39
+image1_addr=0xB0800000
+image_name=openwrt-lantiq-falcon-SFP
+ipaddr=192.168.1.10
+kernel0_from_sf=sf probe 0;sf read ${ram_addr} ${kernel0_offs} ${max_kernel_size}
+kernel0_offs=0xC0000
+kernel1_from_sf=sf probe 0;sf read ${ram_addr} ${kernel1_offs} ${max_kernel_size}
+kernel1_offs=0x800000
+load_kernel=tftp ${ram_addr} ${tftppath}${image_name}-uImage
+load_uboot=tftp ${ram_addr} ${tftppath}u-boot.img
+machtype=SFP
+magic_addr=0xBF200038
+magic_val=0xDEADBEEF
+max_kernel_size=180000
+nSerial=ALCLFAB53BD7
+net_nfs=run load_kernel nfsargs addip addmtdparts0 addmisc;bootm ${ram_addr}
+netmask=255.255.255.0
+nfsargs=setenv bootargs root=/dev/nfs rw nfsroot=${serverip}:${rootpath},${nfsoptions}
+nfsoptions=rsize=1024,wsize=1024
+omci_loid=loid
+omci_lpwd=lpasswd
+ram_addr=80F00000
+reset_uboot_env=sf probe 0;sf erase 40000 80000
+save_uboot=sf probe 0;sf erase 0 40000;sf write ${ram_addr} 0 ${filesize}
+select_image=setenv activate_image -1;if itest *${magic_addr} == ${magic_val} ; then if itest *${act_img_addr} == 0 ; then setenv activate_image 0;fi;if itest *${act_img_addr} == 1 ; then setenv activate_image 1;fi;mw ${magic_addr} 0x0;mw ${act_img_addr} 0x0;fi;if test $activate_image = -1 ; then setenv c_img $committed_image;else setenv c_img $activate_image;setenv activate_image -1;fi;if test $c_img = 0 && test $image0_is_valid = 0 ; then setenv c_img 1;fi;if test $c_img = 1 && test $image1_is_valid = 0 ; then setenv c_img 0;fi;if test $image0_is_valid = 0 && test $image1_is_valid = 0 ; then setenv c_img _err;fi;exit 0
+serverip=192.168.1.100
+sfp_a2_info=begin-base64 644 sfp_a2_info @ZADOAF8A2ACMoHUwiLh5GK/IAACIuAAAe4Yi0G4XJxAHywAPBjAAFAAGtQRm@ZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gAAAAAAAAAEAAAABAAAAAQAAAAEA@AAAAAAA2Kal/QBDkPsgAAP////8DAABA//8AQAAAcAAAAAAAIAAAAAAAAAAA@AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEFBMQAAAAAAAAAAAAAAAAAA@AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@====@
+stderr=serial
+stdin=serial
+stdout=serial
+tx_fault_pin=2
+update_image0=tftp ${ram_addr} ${tftppath}${image_name}-squashfs.image;sf probe 0;sf erase ${kernel0_offs} +${filesize};sf write ${ram_addr} ${kernel0_offs} ${filesize}
+update_image1=tftp ${ram_addr} ${tftppath}${image_name}-squashfs.image;sf probe 0;sf erase ${kernel1_offs} +${filesize};sf write ${ram_addr} ${kernel1_offs} ${filesize}
+update_openwrt=run update_image0 && setenv committed_image 0 && setenv image0_is_valid 1 && saveenv
+update_uboot=run load_uboot && run save_uboot
+ver=U-Boot 2011.12-lantiq-gpon-1.2.24 (Nov 03 2014 - 22:46:28)
+goi_config=begin-base64 644 goi_config@H4sIAFbnNFQCA+1WS2/aQBDmWn7FVj1wwtlZ78u1ekBJWkUlahRQekCRZeyF@WMUssk2b/vuOIQQwJrmkqaL6u9iab3ZmZ1bzMEV0Etn5JJmeTG0SrH9bLwuK@UEKsvojqlwkmW8A4CJCuVCgHV7qqRWjrFbDMizAjpJVZWzyl9xz/RtFevzjB@xyed6cyOw1mn/c4uisTOyWk4S8ZZWP4Pk9RgptIF6TAKqkvdLoMhsI8u3ChH@OvDttNeXjnBop71nMwvnU5NXhIVJFwYNLzMTFOF4VipsnA4zMyEdFzyHuppr@EMrbkje9q7NgHAcrHe45nmacgVai4iCO4igIF3HVL94mT5OiMNkRJljYXwdk@audJYbPtNS7xFjvJCa76FK/8FA/P8GyPP4vCGYZI14aZK1iZ1woLR1g7meSm@WJNdgJqTdH0hPOkdsVvHPtpFssvYEbusPCnpEbt17KNdJLuc73HbJACHfflD@+OAB7CX2fhM6dZRgQBmAcmEnuRepjfH8Q/aUo1zBsT0xUeMYQ9Xs0C+KgXr0@0C+s/HIKnhYSOGeyzm95HGtFUwrY6miNX0yFrokXxZyqQ7ds5ZYC86RiSmnN@VZ3f0qqDF0cFkIJVSzU1YY4VmZp5sVOOOb7eut6oIzCyMiguPb1VuR4MLgLg@Ho3D7MdGFRu7BOoKEJKJGt1ds6ippcbmT/H+NbqLMAvHdpZEmwNMaWxCklEp@vUoQNl1WJGObh1ujfWsXlzY2+PQVvUmUJ1u9LzcD9HTvIup6S2QzUyeP47J5@vJ3+b3D+lxFHq/EfTs1f8PHM/EcAzn9BBS4AQFEPmBK8mf+vAdpq8D9jv/5X@u1gwC3OTla3WifKfL1T/kvOj9Y+zaLv/c4X1X47Opv5fAx9w/yJzW5DorlzU@SXFnyPD3wpAkxjUgmSQme+/7fruUfer3BufXwfX551LygQxxiyejr7f+RXFH@Rmnv1h+ck9Hy+0n5i6OEjPLbtgvCF472tA9AHU8pn7absmvQoEGDf44/alyF@NgAUAAA=@====@
+image1_version=3FE56853AOPD99
+image1_is_valid=1
+activate_image=1
+committed_image=1
+omci_version=3FE56853AOPD99
+bootdelay=1
+restore_pins=1
+asc0=0
+rar="0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000"
+ssb_error_found=1
+preboot=gpio set 3;gpio input 2;gpio input 105;gpio input 106;gpio input 107;gpio input 108

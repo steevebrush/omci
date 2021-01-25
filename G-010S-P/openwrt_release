@@ -1,0 +1,8 @@
+root@SFP:/home/ONTUSER# cat /etc/openwrt_release 
+DISTRIB_ID="OpenWrt"
+DISTRIB_RELEASE="7.5.1"
+DISTRIB_REVISION="14.07_ltq"
+DISTRIB_CODENAME="sfp"
+DISTRIB_TARGET="lantiq/generic"
+DISTRIB_DESCRIPTION="OpenWrt SFP 7.5.1"
+DISTRIB_TAINTS="no-all busybox"
