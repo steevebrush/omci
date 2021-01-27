@@ -1,0 +1,1574 @@
+CONFIGURE_PQ_START32769
+pqId = 32769
+pqCfg.cfgStatusFlag = 64
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 0
+pqCfg.weight = 2
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32769
+CONFIGURE_PQ_START32770
+pqId = 32770
+pqCfg.cfgStatusFlag = 96
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 32770
+pqCfg.weight = 20
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32770
+CONFIGURE_PQ_START32771
+pqId = 32771
+pqCfg.cfgStatusFlag = 96
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 32771
+pqCfg.weight = 2
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32771
+CONFIGURE_PQ_START32772
+pqId = 32772
+pqCfg.cfgStatusFlag = 96
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 32772
+pqCfg.weight = 2
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32772
+CONFIGURE_PQ_START32773
+pqId = 32773
+pqCfg.cfgStatusFlag = 64
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 0
+pqCfg.weight = 2
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32773
+CONFIGURE_PQ_START32774
+pqId = 32774
+pqCfg.cfgStatusFlag = 96
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 32770
+pqCfg.weight = 20
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32774
+CONFIGURE_PQ_START32775
+pqId = 32775
+pqCfg.cfgStatusFlag = 96
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 32772
+pqCfg.weight = 2
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32775
+CONFIGURE_PQ_START32776
+pqId = 32776
+pqCfg.cfgStatusFlag = 96
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 32770
+pqCfg.weight = 20
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32776
+CONFIGURE_PQ_START32777
+pqId = 32777
+pqCfg.cfgStatusFlag = 96
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 32772
+pqCfg.weight = 2
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32777
+CONFIGURE_PQ_START32778
+pqId = 32778
+pqCfg.cfgStatusFlag = 96
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 32771
+pqCfg.weight = 2
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32778
+CONFIGURE_PQ_START32779
+pqId = 32779
+pqCfg.cfgStatusFlag = 64
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 0
+pqCfg.weight = 20
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32779
+CONFIGURE_PQ_START32780
+pqId = 32780
+pqCfg.cfgStatusFlag = 96
+pqCfg.pqId  = 0
+pqCfg.maxQueueSize = 0
+pqCfg.allocQueueSize = 0
+pqCfg.port = 0
+pqCfg.priority = 0
+pqCfg.tschedPtr = 32771
+pqCfg.weight = 2
+pqCfg.pqCfgOpt = 0
+CONFIGURE_PQ_END32780
+CONFIGURE_UNIPORT_PROPERTY_START257
+portId = 257
+taggingMode = 2
+CONFIGURE_UNIPORT_PROPERTY_END257
+CONFIGURE_UNIPORT_PROPERTY_START3585
+portId = 3585
+taggingMode = 2
+CONFIGURE_UNIPORT_PROPERTY_END3585
+CONFIGURE_TCONT_START32769
+tcontId  = 32769
+allocId = 304
+policy = 1
+CONFIGURE_TCONT_END32769
+CONFIGURE_TCONT_START32770
+tcontId  = 32770
+allocId = 305
+policy = 1
+CONFIGURE_TCONT_END32770
+CONFIGURE_TCONT_START32771
+tcontId  = 32771
+allocId = 306
+policy = 1
+CONFIGURE_TCONT_END32771
+CONFIGURE_TCONT_START32772
+tcontId  = 32772
+allocId = 307
+policy = 1
+CONFIGURE_TCONT_END32772
+CONFIGURE_GEMPORT_START2047
+gemPortCfg.cfgStatusFlag = 261
+gemPortCfg.gemPortId  = 2047
+gemPortCfg.tcontPtr = 0
+gemPortCfg.direction = 2
+gemPortCfg.usPqPtr = 0
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END2047
+CONFIGURE_GEMPORT_START385
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 385
+gemPortCfg.tcontPtr = 32769
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32769
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END385
+CONFIGURE_GEMPORT_START386
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 386
+gemPortCfg.tcontPtr = 32770
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32770
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END386
+CONFIGURE_GEMPORT_START387
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 387
+gemPortCfg.tcontPtr = 32771
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32771
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END387
+CONFIGURE_GEMPORT_START388
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 388
+gemPortCfg.tcontPtr = 32772
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32772
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END388
+CONFIGURE_GEMPORT_START2046
+gemPortCfg.cfgStatusFlag = 261
+gemPortCfg.gemPortId  = 2046
+gemPortCfg.tcontPtr = 0
+gemPortCfg.direction = 2
+gemPortCfg.usPqPtr = 0
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END2046
+CONFIGURE_GEMPORT_START389
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 389
+gemPortCfg.tcontPtr = 32769
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32773
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END389
+CONFIGURE_GEMPORT_START390
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 390
+gemPortCfg.tcontPtr = 32770
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32774
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END390
+CONFIGURE_GEMPORT_START391
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 391
+gemPortCfg.tcontPtr = 32772
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32775
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END391
+CONFIGURE_GEMPORT_START392
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 392
+gemPortCfg.tcontPtr = 32770
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32776
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END392
+CONFIGURE_GEMPORT_START393
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 393
+gemPortCfg.tcontPtr = 32772
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32777
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END393
+CONFIGURE_GEMPORT_START394
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 394
+gemPortCfg.tcontPtr = 32771
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32778
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END394
+CONFIGURE_GEMPORT_START395
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 395
+gemPortCfg.tcontPtr = 32770
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32779
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END395
+CONFIGURE_GEMPORT_START396
+gemPortCfg.cfgStatusFlag = 271
+gemPortCfg.gemPortId  = 396
+gemPortCfg.tcontPtr = 32771
+gemPortCfg.direction = 3
+gemPortCfg.usPqPtr = 32780
+gemPortCfg.dsPqPtr = 0
+gemPortCfg.encryption = 0
+gemPortCfg.encryptionKeyRing = 0
+CONFIGURE_GEMPORT_END396
+CONFIGURE_DOWNSTREAM_GEMPORT_START2046
+gemPortId = 2046
+gemPortType = 1
+CONFIGURE_DOWNSTREAM_GEMPORT_END2046
+CONFIGURE_DOWNSTREAM_GEMPORT_START2047
+gemPortId = 2047
+gemPortType = 0
+CONFIGURE_DOWNSTREAM_GEMPORT_END2047
+CONFIGURE_UPFLOW_START0
+flowID = 0
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 14
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 4096
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 3
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 15
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 4096
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 65535
+map.gemCtpPort1 = 65535
+map.gemCtpPort2 = 65535
+map.gemCtpPort3 = 65535
+map.gemCtpPort4 = 65535
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_UPFLOW_END0
+CONFIGURE_UPFLOW_START1
+flowID = 1
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 14
+rule.filter.priority.innerPriority = 14
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 4096
+rule.filter.tpid.outerTPID = 5
+rule.filter.tpid.innerTPID = 0
+rule.filter.ethType = 0
+rule.action.tag = 3
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 15
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 4096
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 3
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 65535
+map.gemCtpPort1 = 65535
+map.gemCtpPort2 = 65535
+map.gemCtpPort3 = 65535
+map.gemCtpPort4 = 65535
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_UPFLOW_END1
+CONFIGURE_UPFLOW_START2
+flowID = 2
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 15
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 0
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 3
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 15
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 0
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 65535
+map.gemCtpPort1 = 65535
+map.gemCtpPort2 = 65535
+map.gemCtpPort3 = 65535
+map.gemCtpPort4 = 65535
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_UPFLOW_END2
+CONFIGURE_UPFLOW_START3
+flowID = 3
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 8
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 832
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 8
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 2800
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 385
+map.gemCtpPort1 = 386
+map.gemCtpPort2 = 386
+map.gemCtpPort3 = 387
+map.gemCtpPort4 = 387
+map.gemCtpPort5 = 388
+map.gemCtpPort6 = 387
+map.gemCtpPort7 = 387
+CONFIGURE_UPFLOW_END3
+CONFIGURE_UPFLOW_START4
+flowID = 4
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 8
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 835
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 8
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 835
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 389
+map.gemCtpPort1 = 390
+map.gemCtpPort2 = 390
+map.gemCtpPort3 = 390
+map.gemCtpPort4 = 390
+map.gemCtpPort5 = 391
+map.gemCtpPort6 = 391
+map.gemCtpPort7 = 390
+CONFIGURE_UPFLOW_END4
+CONFIGURE_UPFLOW_START5
+flowID = 5
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 0
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 851
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 0
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 852
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_UPFLOW_END5
+CONFIGURE_UPFLOW_START6
+flowID = 6
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 1
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 851
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 1
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 852
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_UPFLOW_END6
+CONFIGURE_UPFLOW_START7
+flowID = 7
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 2
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 851
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 2
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 852
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_UPFLOW_END7
+CONFIGURE_UPFLOW_START8
+flowID = 8
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 3
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 851
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 3
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 852
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_UPFLOW_END8
+CONFIGURE_UPFLOW_START9
+flowID = 9
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 4
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 851
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 4
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 852
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_UPFLOW_END9
+CONFIGURE_UPFLOW_START10
+flowID = 10
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 5
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 851
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 4
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 852
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_UPFLOW_END10
+CONFIGURE_UPFLOW_START11
+flowID = 11
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 6
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 851
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 5
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 852
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_UPFLOW_END11
+CONFIGURE_UPFLOW_START12
+flowID = 12
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 7
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 851
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 7
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 852
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_UPFLOW_END12
+CONFIGURE_UPFLOW_START13
+flowID = 13
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 0
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 840
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 0
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 840
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 394
+map.gemCtpPort1 = 394
+map.gemCtpPort2 = 394
+map.gemCtpPort3 = 394
+map.gemCtpPort4 = 394
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_UPFLOW_END13
+CONFIGURE_UPFLOW_START14
+flowID = 14
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 1
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 840
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 1
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 840
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 394
+map.gemCtpPort1 = 394
+map.gemCtpPort2 = 394
+map.gemCtpPort3 = 394
+map.gemCtpPort4 = 394
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_UPFLOW_END14
+CONFIGURE_UPFLOW_START15
+flowID = 15
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 2
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 840
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 2
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 840
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 394
+map.gemCtpPort1 = 394
+map.gemCtpPort2 = 394
+map.gemCtpPort3 = 394
+map.gemCtpPort4 = 394
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_UPFLOW_END15
+CONFIGURE_UPFLOW_START16
+flowID = 16
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 3
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 840
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 3
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 840
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 394
+map.gemCtpPort1 = 394
+map.gemCtpPort2 = 394
+map.gemCtpPort3 = 394
+map.gemCtpPort4 = 394
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_UPFLOW_END16
+CONFIGURE_UPFLOW_START17
+flowID = 17
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 4
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 840
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 4
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 840
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 394
+map.gemCtpPort1 = 394
+map.gemCtpPort2 = 394
+map.gemCtpPort3 = 394
+map.gemCtpPort4 = 394
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_UPFLOW_END17
+CONFIGURE_UPFLOW_START18
+flowID = 18
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 5
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 840
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 4
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 840
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 394
+map.gemCtpPort1 = 394
+map.gemCtpPort2 = 394
+map.gemCtpPort3 = 394
+map.gemCtpPort4 = 394
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_UPFLOW_END18
+CONFIGURE_UPFLOW_START19
+flowID = 19
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 8
+rule.filter.vlan.outerVID = 4096
+rule.filter.vlan.innerVID = 838
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 8
+rule.action.vlan.outerVID  = 0
+rule.action.vlan.innerVID  = 838
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 395
+map.gemCtpPort1 = 395
+map.gemCtpPort2 = 395
+map.gemCtpPort3 = 395
+map.gemCtpPort4 = 396
+map.gemCtpPort5 = 395
+map.gemCtpPort6 = 395
+map.gemCtpPort7 = 395
+CONFIGURE_UPFLOW_END19
+CONFIGURE_DOWNFLOW_START0
+flowID = 0
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 8
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 2800
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 8
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 832
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 385
+map.gemCtpPort1 = 386
+map.gemCtpPort2 = 386
+map.gemCtpPort3 = 387
+map.gemCtpPort4 = 387
+map.gemCtpPort5 = 388
+map.gemCtpPort6 = 387
+map.gemCtpPort7 = 387
+CONFIGURE_DOWNFLOW_END0
+CONFIGURE_DOWNFLOW_START1
+flowID = 1
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 8
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 835
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 8
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 835
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 389
+map.gemCtpPort1 = 390
+map.gemCtpPort2 = 390
+map.gemCtpPort3 = 390
+map.gemCtpPort4 = 390
+map.gemCtpPort5 = 391
+map.gemCtpPort6 = 391
+map.gemCtpPort7 = 390
+CONFIGURE_DOWNFLOW_END1
+CONFIGURE_DOWNFLOW_START2
+flowID = 2
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 0
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 852
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 0
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 851
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_DOWNFLOW_END2
+CONFIGURE_DOWNFLOW_START3
+flowID = 3
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 1
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 852
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 1
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 851
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_DOWNFLOW_END3
+CONFIGURE_DOWNFLOW_START4
+flowID = 4
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 2
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 852
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 2
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 851
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_DOWNFLOW_END4
+CONFIGURE_DOWNFLOW_START5
+flowID = 5
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 3
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 852
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 3
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 851
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_DOWNFLOW_END5
+CONFIGURE_DOWNFLOW_START6
+flowID = 6
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 4
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 852
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 4
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 851
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_DOWNFLOW_END6
+CONFIGURE_DOWNFLOW_START7
+flowID = 7
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 5
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 852
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 6
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 851
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_DOWNFLOW_END7
+CONFIGURE_DOWNFLOW_START8
+flowID = 8
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 7
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 852
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 7
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 851
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 392
+map.gemCtpPort1 = 392
+map.gemCtpPort2 = 392
+map.gemCtpPort3 = 392
+map.gemCtpPort4 = 392
+map.gemCtpPort5 = 393
+map.gemCtpPort6 = 393
+map.gemCtpPort7 = 392
+CONFIGURE_DOWNFLOW_END8
+CONFIGURE_DOWNFLOW_START9
+flowID = 9
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 0
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 840
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 0
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 840
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 394
+map.gemCtpPort1 = 394
+map.gemCtpPort2 = 394
+map.gemCtpPort3 = 394
+map.gemCtpPort4 = 394
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_DOWNFLOW_END9
+CONFIGURE_DOWNFLOW_START10
+flowID = 10
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 1
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 840
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 1
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 840
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 394
+map.gemCtpPort1 = 394
+map.gemCtpPort2 = 394
+map.gemCtpPort3 = 394
+map.gemCtpPort4 = 394
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_DOWNFLOW_END10
+CONFIGURE_DOWNFLOW_START11
+flowID = 11
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 2
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 840
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 2
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 840
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 394
+map.gemCtpPort1 = 394
+map.gemCtpPort2 = 394
+map.gemCtpPort3 = 394
+map.gemCtpPort4 = 394
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_DOWNFLOW_END11
+CONFIGURE_DOWNFLOW_START12
+flowID = 12
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 3
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 840
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 3
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 840
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 394
+map.gemCtpPort1 = 394
+map.gemCtpPort2 = 394
+map.gemCtpPort3 = 394
+map.gemCtpPort4 = 394
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_DOWNFLOW_END12
+CONFIGURE_DOWNFLOW_START13
+flowID = 13
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 4
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 840
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 4
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 840
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 394
+map.gemCtpPort1 = 394
+map.gemCtpPort2 = 394
+map.gemCtpPort3 = 394
+map.gemCtpPort4 = 394
+map.gemCtpPort5 = 65535
+map.gemCtpPort6 = 65535
+map.gemCtpPort7 = 65535
+CONFIGURE_DOWNFLOW_END13
+CONFIGURE_DOWNFLOW_START14
+flowID = 14
+portID = 257
+type = 1
+rule.filter.priority.outerPriority = 15
+rule.filter.priority.innerPriority = 8
+rule.filter.vlan.outerVID = 0
+rule.filter.vlan.innerVID = 838
+rule.filter.tpid.outerTPID = 0
+rule.filter.tpid.innerTPID = 5
+rule.filter.ethType = 0
+rule.action.tag = 1
+rule.action.priority.outerPriority = 15
+rule.action.priority.innerPriority = 8
+rule.action.vlan.outerVID  = 4096
+rule.action.vlan.innerVID  = 838
+rule.action.tpid.outerTPID  = 0
+rule.action.tpid.innerTPID  = 2
+rule.inputTPID = 33024
+rule.outputTPID = 33024
+map.gemCtpPort0 = 395
+map.gemCtpPort1 = 395
+map.gemCtpPort2 = 395
+map.gemCtpPort3 = 395
+map.gemCtpPort4 = 396
+map.gemCtpPort5 = 395
+map.gemCtpPort6 = 395
+map.gemCtpPort7 = 395
+CONFIGURE_DOWNFLOW_END14
+CONFIGURE_IGMP_CHANNEL_START257
+portid  = 257
+flag  = 524287
+version  = 2
+function  = 0
+immdiate_leave  = 1
+us_igmp_vlan  = 0
+us_igmp_pbit  = 0
+us_igmp_behaviour  = 0
+us_igmp_rate  = 64
+ds_igmp_mcast_vlan  = 840
+ds_igmp_mcast_pbit  = 4
+ds_igmp_mcast_behaviour  = 3
+robustness  = 6
+query_ip_address  = 0x00000000
+query_interval  = 15
+query_max_response  = 100
+last_member_query_interval  = 10
+unauthed_join_request_hehav  = 1
+max_simultaneous_groups  = 9
+max_mcast_bandwidth  = 3000000
+bandwidth_enforcement  = 1
+chn_igmp_vlan  = 840
+chn_max_simultaneous_groups  = 0
+chn_max_mcast_bandwidth  = 0
+CONFIGURE_IGMP_CHANNEL_END257
+CONFIGURE_IGMP_ACL_START1023
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe0000000
+dip_end = 0xefffffff
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END1023
+CONFIGURE_IGMP_ACL_START0
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000b01
+dip_end = 0xe8000b7f
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END0
+CONFIGURE_IGMP_ACL_START1
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000280
+dip_end = 0xe80002ff
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END1
+CONFIGURE_IGMP_ACL_START2
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe800017e
+dip_end = 0xe80001ff
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END2
+CONFIGURE_IGMP_ACL_START3
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000710
+dip_end = 0xe800073f
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END3
+CONFIGURE_IGMP_ACL_START4
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000a01
+dip_end = 0xe8000a7f
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END4
+CONFIGURE_IGMP_ACL_START5
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000e01
+dip_end = 0xe8000e7f
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END5
+CONFIGURE_IGMP_ACL_START6
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000f01
+dip_end = 0xe8000f7f
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END6
+CONFIGURE_IGMP_ACL_START7
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8001f01
+dip_end = 0xe8001fff
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END7
+CONFIGURE_IGMP_ACL_START8
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000301
+dip_end = 0xe800037f
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END8
+CONFIGURE_IGMP_ACL_START9
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8002101
+dip_end = 0xe80021ff
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END9
+CONFIGURE_IGMP_ACL_START10
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000901
+dip_end = 0xe800097f
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END10
+CONFIGURE_IGMP_ACL_START11
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8001301
+dip_end = 0xe800130f
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END11
+CONFIGURE_IGMP_ACL_START12
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000d01
+dip_end = 0xe8000d7f
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END12
+CONFIGURE_IGMP_ACL_START13
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8002001
+dip_end = 0xe80020ff
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END13
+CONFIGURE_IGMP_ACL_START14
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8001e01
+dip_end = 0xe8001eff
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END14
+CONFIGURE_IGMP_ACL_START15
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8002201
+dip_end = 0xe800220f
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END15
+CONFIGURE_IGMP_ACL_START16
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000501
+dip_end = 0xe80005ff
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END16
+CONFIGURE_IGMP_ACL_START17
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000401
+dip_end = 0xe800047f
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END17
+CONFIGURE_IGMP_ACL_START18
+is_dynamic  = 1
+portid = 257
+gemport = 2047
+vlan = 840
+sip = 0x00000000
+dip_start = 0xe8000701
+dip_end = 0xe8000703
+bandwidth = 0
+CONFIGURE_IGMP_ACL_END18
+CONFIGURE_MCAST_UNI_INFO_START257
+portId = 257
+flag = 62
+ds_tag_mode  = 0
+igmp_access_method = 0
+mcast_vid = 840
+mcast_pbit = 4
+us_default_priority = 0
+uni_max_hosts = 8
+CONFIGURE_MCAST_UNI_INFO_END257
+CONFIGURE_IGMP_COMMON_CONFIG_START
+igmpSnoopingEnable  = 1
+CONFIGURE_IGMP_COMMON_CONFIG_END
